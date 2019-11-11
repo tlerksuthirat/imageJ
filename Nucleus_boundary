@@ -1,0 +1,4 @@
+run("Make Binary");
+run("Dilate");
+run("Fill Holes");
+run("Find Edges");
