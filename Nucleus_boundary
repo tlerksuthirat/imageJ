@@ -1,4 +1,4 @@
-//Alterbative to create boundary
+//To create nuclear boundary
 run("Multiply...", "value=3");
 run("Invert");
 run("Make Binary");
