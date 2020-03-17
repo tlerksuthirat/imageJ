@@ -1,4 +1,10 @@
+//Alterbative to create boundary
+run("Multiply...", "value=3");
+run("Invert");
 run("Make Binary");
-run("Dilate");
 run("Fill Holes");
+run("Dilate");
 run("Find Edges");
+saveAs("Tiff");
+run("16-bit");
+run("Save");
