@@ -1,5 +1,6 @@
 //To create nuclear boundary
-run("Multiply...", "value=3");
+// X -- input number
+run("Multiply...", "value=XX");
 run("Invert");
 run("Make Binary");
 run("Fill Holes");
@@ -8,3 +9,8 @@ run("Find Edges");
 saveAs("Tiff");
 run("16-bit");
 run("Save");
+run("Merge Channels...");
+saveAs("Tiff");
+getMinAndMax(min, max)
+manuallower = XXX
+setMinAndMax(manuallower, max);
