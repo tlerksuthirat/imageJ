@@ -1,5 +1,5 @@
 //To create nuclear boundary
-// X -- input number
+//X -- input number
 run("Multiply...", "value=XX");
 run("Invert");
 run("Make Binary");
